@@ -6,7 +6,7 @@ Kizombalux::Application.routes.draw do
   get "hotel", to: "festival#accomodation", as: "hotel"
 
 
-  get "festival/contact"
+  get "contact", to: "festival#contact", as: "contact"
 
   resources :artists
 
