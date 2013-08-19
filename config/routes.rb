@@ -1,5 +1,5 @@
 Kizombalux::Application.routes.draw do
-  get "lineup", to: "festival#lineup"
+  get "lineup", to: "festival#lineup", as: "lineup"
 
   get "festival/ticket"
 
