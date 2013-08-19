@@ -1,0 +1,19 @@
+<ul class="portfolio p4col sixteen columns">
+	<% for artist in @artists %>
+		<li data-id="1100" data-type="photography ">
+			<div class="portfolio-thumb thumb-p4col">
+				<a href="<%= artist.picture %>" class="prettyPhoto zoom " data-rel="prettyPhoto[portfolio]" title="">
+					<%= image_tag artist.picture %>
+					<div class="overlay" ><span class="ov-lb"></span></div>
+				</a>
+			</div>
+			<div class="portfolio-info info-p4col" >
+				<a href="portfolio-single.html" title="Modeling" class="portfolio-title">
+					<h3 class="title"><%= artist.name %></h3>
+				</a>
+				<div class="portfolio-types"><%= artist.country %></div>
+
+		    </div>
+		</li>
+	<% end %>
+</ul>

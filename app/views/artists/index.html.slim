@@ -1,0 +1,23 @@
+h1 Listing artists
+
+table
+  tr
+    th Firstname
+    th Lastname
+    th Country
+    th
+    th
+    th
+
+  - @artists.each do |artist|
+    tr
+      td = artist.firstname
+      td = artist.lastname
+      td = artist.country
+      td = link_to 'Show', artist
+      td = link_to 'Edit', edit_artist_path(artist)
+      td = link_to 'Destroy', artist, :confirm => 'Are you sure?', :method => :delete
+
+br
+
+= link_to 'New Artist', new_artist_path

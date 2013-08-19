@@ -1,0 +1,15 @@
+p#notice = notice
+
+p
+  strong Firstname:
+  = @artist.firstname
+p
+  strong Lastname:
+  = @artist.lastname
+p
+  strong Country:
+  = @artist.country
+
+= link_to 'Edit', edit_artist_path(@artist)
+'|
+= link_to 'Back', artists_path
