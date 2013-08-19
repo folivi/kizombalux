@@ -1,11 +1,10 @@
 Kizombalux::Application.routes.draw do
   get "lineup", to: "festival#lineup", as: "lineup"
 
-  get "festival/ticket"
+  get "tickets", to: "festival#ticket", as: "tickets"
 
-  get "festival/program"
+  get "hotel", to: "festival#accomodation", as: "hotel"
 
-  get "festival/accomodation"
 
   get "festival/contact"
 
