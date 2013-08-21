@@ -42,15 +42,15 @@
 				<% for ticket in @prices %>
 				<tr>
 					<td><b><%= ticket.name %></b></td>
-					<td><%= ticket.september_price %></td>
-					<td><%= ticket.october_price %></td>
-					<td><%= ticket.november_price %></td>
-					<td><%= ticket.december_price %></td>
-					<td><%= ticket.january_price %></td>
-					<td><%= ticket.february_price %></td>
-					<td><%= ticket.march_price %></td>
-					<td><%= ticket.april_price %></td>
-					<td><%= ticket.door_price %></td>
+					<td><%= ticket.september_price.downcase %></td>
+					<td><%= ticket.october_price.downcase %></td>
+					<td><%= ticket.november_price.downcase %></td>
+					<td><%= ticket.december_price.downcase %></td>
+					<td><%= ticket.january_price.downcase %></td>
+					<td><%= ticket.february_price.downcase %></td>
+					<td><%= ticket.march_price.downcase %></td>
+					<td><%= ticket.april_price.downcase %></td>
+					<td><%= ticket.door_price.downcase %></td>
 				</tr>
 				<% end %>
 			
