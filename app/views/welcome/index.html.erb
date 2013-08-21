@@ -50,6 +50,12 @@
 	</script>
     <!-- End Portfolio Carousel -->
 <% end %>
+<div class="one-third column alpha">
+	sqsq
+</div>
+<div class="two-thirds column omega">
+	sqdqs
+</div>
 
 <div class="clearfix">
                             <div id="portfolio-carousel" class="portfolio-carousel">
@@ -65,14 +71,14 @@
                                 <% for artist in Artist.all %>
 																	<li>
 															                                        <div class="portfolio-thumb thumb-p4col">
-															                                            <a title="Modeling" data-rel="prettyPhoto[portfolio]" class="prettyPhoto zoom " href="photos/5-300x200.jpg">
+															                                            <a title="<%= artist.name %>" data-rel="prettyPhoto[portfolio]" class="prettyPhoto zoom " href="<%= artist.picture %>">
 															                                            <img alt="" src="<%= artist.picture %>">
 															                                            <div class="overlay"><span class="ov-lb"></span></div>
 															                                            </a>
 															                                        </div>
 
 															                                        <div class="portfolio-info info-p4col">
-															                                            <a class="portfolio-title" title="Modeling" href="portfolio-single.html">
+															                                            <a class="portfolio-title" title="Modeling" href="#">
 															                                                <h3 class="title"><%= artist.name %></h3>
 															                                            </a>
 															                                            <div class="portfolio-types">
