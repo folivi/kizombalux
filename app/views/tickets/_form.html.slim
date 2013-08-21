@@ -1,0 +1,39 @@
+= form_for @ticket do |f|
+  - if @ticket.errors.any?
+    #error_explanation
+      h2 = "#{pluralize(@ticket.errors.count, "error")} prohibited this ticket from being saved:"
+      ul
+        - @ticket.errors.full_messages.each do |message|
+          li = message
+
+  .field
+    = f.label :name
+    = f.text_field :name
+  .field
+    = f.label :september_price
+    = f.text_field :september_price
+  .field
+    = f.label :october_price
+    = f.text_field :october_price
+  .field
+    = f.label :november_price
+    = f.text_field :november_price
+  .field
+    = f.label :december_price
+    = f.text_field :december_price
+  .field
+    = f.label :january_price
+    = f.text_field :january_price
+  .field
+    = f.label :february_price
+    = f.text_field :february_price
+  .field
+    = f.label :march_price
+    = f.text_field :march_price
+  .field
+    = f.label :april_price
+    = f.text_field :april_price
+  .field
+    = f.label :door_price
+    = f.text_field :door_price
+  .actions = f.submit 'Save'

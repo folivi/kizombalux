@@ -1,7 +1,10 @@
 Kizombalux::Application.routes.draw do
+  resources :tickets
+
+
   get "lineup", to: "festival#lineup", as: "lineup"
 
-  get "tickets", to: "festival#ticket", as: "tickets"
+  get "pricing", to: "festival#ticket", as: "pricing"
 
   get "hotel", to: "festival#accomodation", as: "hotel"
 

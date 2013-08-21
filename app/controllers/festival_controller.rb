@@ -4,6 +4,7 @@ class FestivalController < ApplicationController
   end
 
   def ticket
+    @prices = Ticket.all
   end
 
   def program

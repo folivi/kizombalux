@@ -1,2 +1,60 @@
-<h1>Festival#ticket</h1>
-<p>Find me in app/views/festival/ticket.html.erb</p>
+<div class="sixteen columns texts-wrap">
+	<h3 class="title" style="color: rgb(117, 0, 0); border-color: rgba(117, 0, 0, 0.25);">
+		Tickets Price Table<br>
+	</h3>
+	<div class="styled-table-1">
+		<table width="100%">
+			<thead>
+				<tr>
+					<th>
+						
+					</th>
+					<th>
+						September
+					</th>
+					<th>
+						October
+					</th>
+					<th>
+						November
+					</th>
+					<th>
+						December
+					</th>
+					<th>
+						January
+					</th>
+					<th>
+						February
+					</th>
+					<th>
+						March
+					</th>
+					<th>
+						April
+					</th>
+					<th>
+						May
+					</th>
+				</tr>
+			</thead>
+			<tbody>
+				<% for ticket in @prices %>
+				<tr>
+					<td><b><%= ticket.name %></b></td>
+					<td><%= ticket.september_price %></td>
+					<td><%= ticket.october_price %></td>
+					<td><%= ticket.november_price %></td>
+					<td><%= ticket.december_price %></td>
+					<td><%= ticket.january_price %></td>
+					<td><%= ticket.february_price %></td>
+					<td><%= ticket.march_price %></td>
+					<td><%= ticket.april_price %></td>
+					<td><%= ticket.door_price %></td>
+				</tr>
+				<% end %>
+			
+			</tbody>
+		</table>
+	</div>
+</div>

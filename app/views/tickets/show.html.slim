@@ -1,0 +1,36 @@
+p#notice = notice
+
+p
+  strong Name:
+  = @ticket.name
+p
+  strong September price:
+  = @ticket.september_price
+p
+  strong October price:
+  = @ticket.october_price
+p
+  strong November price:
+  = @ticket.november_price
+p
+  strong December price:
+  = @ticket.december_price
+p
+  strong January price:
+  = @ticket.january_price
+p
+  strong February price:
+  = @ticket.february_price
+p
+  strong March price:
+  = @ticket.march_price
+p
+  strong April price:
+  = @ticket.april_price
+p
+  strong Door price:
+  = @ticket.door_price
+
+= link_to 'Edit', edit_ticket_path(@ticket)
+'|
+= link_to 'Back', tickets_path

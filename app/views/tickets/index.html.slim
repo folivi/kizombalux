@@ -1,0 +1,37 @@
+h1 Listing tickets
+
+table
+  tr
+    th Name
+    th September price
+    th October price
+    th November price
+    th December price
+    th January price
+    th February price
+    th March price
+    th April price
+    th Door price
+    th
+    th
+    th
+
+  - @tickets.each do |ticket|
+    tr
+      td = ticket.name
+      td = ticket.september_price
+      td = ticket.october_price
+      td = ticket.november_price
+      td = ticket.december_price
+      td = ticket.january_price
+      td = ticket.february_price
+      td = ticket.march_price
+      td = ticket.april_price
+      td = ticket.door_price
+      td = link_to 'Show', ticket
+      td = link_to 'Edit', edit_ticket_path(ticket)
+      td = link_to 'Destroy', ticket, :confirm => 'Are you sure?', :method => :delete
+
+br
+
+= link_to 'New Ticket', new_ticket_path
