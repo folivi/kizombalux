@@ -59,6 +59,7 @@
 
     .container .one-third.column                { width: 300px; }
     .container .two-thirds.column               { width: 620px; }
+    .container .three-thirds.column             { width: 930px; }
     .container .one-fifth.column                { width: 172px; }
 
     /* Offsets */
