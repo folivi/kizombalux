@@ -1,3 +1,45 @@
+<!-- 
+	Lineup:
+		- Albir
+		- Curtis
+		- Tony p
+		- Isabelle & Felicien
+		- Dilson & Ber
+		- Eddy Vents
+		- Bonifacio
+		- Vasco
+		- Na Passada
+		- KikiZomba
+		
+		DJ
+		- Barata
+		- Madiss
+		- Vasco
+		- Pingusso
+		- Cabo-Boy
+
+	Hotel
+	- gallerie photo
+	- Adresse
+	- maps
+	
+	Contacts
+	 - facebook
+	 - formulaire email
+-->
+
+<%= content_for :slider do %>
+	<div class="flexslider">
+		<ul class="slides">
+			<li>
+				<img src="/images/banniere_1.jpg" alt="" />
+					</li>
+					<li>
+						<img src="/images/banniere_2.jpg" alt="" />
+					</li>
+			</ul>
+	</div><!-- End Flexslider -->
+<% end %>
 <%= content_for :header do %>
 <script type="text/javascript" src='js/jquery.flexslider-min.js?ver=1'></script>
     <script type="text/javascript">
@@ -61,7 +103,7 @@
 
 	                            <div class="panel" id="panel32421" style="display: block;">
 	                    			
-														<p><strong>KZL (Kizomba Luxembourg) presents:</strong> The First Kizomba Congress in Luxembourg, from May 2nd to May 4th 2014.</p>
+														<p><h4>KZL (Kizomba Luxembourg) </h4> presents: The First Kizomba Congress in Luxembourg, from May 2nd to May 4th 2014.</p>
 
 														<p>We will host you in a luxury hotel in the heart of Luxembourg. A key location from where you can admire the splendor of our beautiful city</p>
 
@@ -74,20 +116,28 @@
 	                    		<div class="panel" id="panel32422" style="display: none;">
 															<p>
 																<ul>
-																	<li>Friday: Opening party & Shows</li>
-																	<li>Saturday: Workshop all day then shows & party at night time</li>
-																	<li>Sunday: Workshop all day then shows & party at night time</li>
+																	<li><strong>Friday: Opening party & Shows</strong></li>
+																	<li><strong>Saturday: Workshops all day then shows & party at night time</strong></li>
+																	<li><strong>Sunday: Workshops all day then shows & party at night time</strong></li>
 																</ul>
 															</p>
 	                    		</div>
 
 	                    		<div class="panel" id="panel32423" style="display: none;">
-	                    			<p>Current price for the FULL PASS : <%= Ticket.first.september_price %>€ </p>
-														<p> <%= link_to "Pricing table", pricing_path %></p>
+	                    			<p><h5>Current price for the FULL PASS : <%= Ticket.first.september_price %>€ </h5></p>
+														<p> <%= link_to "See the entire pricing table", pricing_path %></p>
 
 	                    		</div>
 	                    		<div class="panel" id="panel32424" style="display: none;">
-	                    			<p>Venue</p>
+	                    			<h4>Venue & Accomodation</h4>
+														<p><strong>Novotel Kirshberg 4*</strong></p>
+														 <p>
+																6 rue Fort Niedergrünewald <br />
+												    		Quartier Européen Nord<br />
+												    		Plateau de Kirchberg<br />
+												    		L-2226 LUXEMBOURG<br />
+																<strng><%= link_to "Hotel details", hotel_path %></strong>
+												    	</p>
 	                    		</div>
 	                        </div>
 	

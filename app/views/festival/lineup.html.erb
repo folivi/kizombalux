@@ -1,22 +1,74 @@
-<%= content_for :title do %>
-	<b> Lineup</b>
-<% end %>
-<ul class="portfolio p4col sixteen columns">
-	<% for artist in @artists %>
-		<li data-id="1100" data-type="photography ">
-			<div class="portfolio-thumb thumb-p4col">
-				<a href="<%= artist.picture %>" class="prettyPhoto zoom " data-rel="prettyPhoto[portfolio]" title="">
-					<%= image_tag artist.picture %>
-					<div class="overlay" ><span class="ov-lb"></span></div>
-				</a>
-			</div>
-			<div class="portfolio-info info-p4col" >
-				<a href="portfolio-single.html" title="Modeling" class="portfolio-title">
-					<h3 class="title"><%= artist.name %></h3>
-				</a>
-				<div class="portfolio-types"><%= artist.country %></div>
 
-		    </div>
-		</li>
-	<% end %>
-</ul>
+<div class="eleven columns texts-wrap">
+
+
+    <!-- ========================================== --> 
+    <!-- Start Content ============================ -->
+    <!-- ========================================== -->   
+    
+    
+	
+    <h3 class="title">
+    	Artists picture gallery
+    </h3>
+    
+    
+    
+    <!-- Gallery -->
+    <div id="gallery-1" class="gallery gallery-columns-4">
+                  <% for artist in Artist.all %>  
+                    <dl class="gallery-item">
+                        <dt class="gallery-icon">
+                            <a data-rel="prettyPhoto[gallery]" class="prettyPhoto" href="<%= artist.picture %>" title="<%= artist.name %>"><img width="150" height="150" src="<%= artist.picture %>" class="attachment-thumbnail" alt="<%= artist.name %>" /></a>
+                        </dt><dd></dd>
+                    </dl>
+                   <% end %>
+                    
+                    
+                    
+                </div>
+                 
+    
+
+    <!-- ======================================== --> 
+<!-- End Content ============================ -->
+<!-- ======================================== -->       
+        
+</div>	
+
+
+
+
+<div class="five columns blog-sidebar">
+
+
+    <!-- ======================================== --> 
+    <!-- Start Right Sidebar ==================== -->
+    <!-- ======================================== -->   
+    
+    <!-- Youtube Video Widget -->
+    <div class="widget">
+
+        <div class="embed">
+        	<iframe src="http://www.youtube.com/embed/-1clJbhtPJ4"></iframe>
+        </div>
+        
+    </div>
+    
+    <!-- Youtube Video Widget -->
+    <div class="widget">
+
+        <div class="embed">
+        	<iframe src="http://www.youtube.com/embed/qANZrq7UbjE?rel=0"></iframe>
+        </div>
+        
+    </div>
+    
+  
+    
+
+    <!-- ======================================== --> 
+    <!-- End Right Sidebar ====================== -->
+    <!-- ======================================== -->       
+        
+</div>
