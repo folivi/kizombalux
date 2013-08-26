@@ -152,7 +152,7 @@ a img.aligncenter {
 	}
 	
 .band.top_border {
-	background:url(../images/main_bg.png) repeat-x transparent ;
+	background:url(/images/main_bg.png) repeat-x transparent ;
 	height:6px;
 	}
 .band.no_border {
@@ -185,20 +185,20 @@ a img.aligncenter {
 	}	
 	
 .band.title {
-	background:url(../images/main_bg.png) repeat-x 0 -78px transparent ;
+	background:url(/images/main_bg.png) repeat-x 0 -78px transparent ;
 	padding-bottom:1px;
 	margin-top:90px;
 	}
 
 .band.content {
-	background:url(../images/content_top.png) repeat-x top center #fff;
+	background:url(/images/content_top.png) repeat-x top center #fff;
 	border-top: 1px solid rgba(255, 255, 255, 0.3);
 	padding:20px 0 40px;
 	margin-top:-1px;
 	}
 
 .band.twitter{
-	background:url(../images/content_top.png) repeat-x top center #FFF;
+	background:url(/images/content_top.png) repeat-x top center #FFF;
 	height:55px;
 	}
 
@@ -399,7 +399,7 @@ ul.sf-menu span.hide{
 	height:10px;
 	text-indent:-999em;
 	overflow:hidden;
-	background:url('../images/arrows.png') no-repeat -10px -100px; /* 8-bit indexed alpha png. IE6 gets solid image only */
+	background:url('/images/arrows.png') no-repeat -10px -100px; /* 8-bit indexed alpha png. IE6 gets solid image only */
 }
 a > .sf-sub-indicator {  /* give all except IE6 the correct values */
 	right: 11px;
@@ -446,7 +446,7 @@ li.sfHover > a > .sf-sub-indicator {
 
 .search_text{
 	float:right;
-	background:url("../images/main_bg.png") repeat-x scroll 0 -83px transparent;
+	background:url("/images/main_bg.png") repeat-x scroll 0 -83px transparent;
 	width:25px;
 	height:25px;
 	padding:0 6px;
@@ -484,7 +484,7 @@ li.sfHover > a > .sf-sub-indicator {
 }
 
 .search_button{
-	background:url("../images/main_bg.png") repeat-x scroll 0 -83px transparent;
+	background:url("/images/main_bg.png") repeat-x scroll 0 -83px transparent;
 	width:27px;
 	height:25px;
 	border:none;
@@ -758,7 +758,7 @@ a.read-more-link, a.read-more-link:visited,
 ul.filter li a,ul.filter li a:visited,
 .widget .tabswrap .panel ul.wp-tag-cloud li a,.widget .tabswrap .panel ul.wp-tag-cloud li a:visited,
 .pagination a, .pagination a:visited ,.tagcloud a,.tagcloud a:visited{
-	background:url(../images/button_bg.png) repeat-x 0 0 #888;
+	background:url(/images/button_bg.png) repeat-x 0 0 #888;
 	display:inline-block;
 	height:28px;
 	line-height:24px;
@@ -954,7 +954,7 @@ h1.title span,h2.title span,h3.title span,h4.title span,h5.title span,h6.title s
 	}
 	
 .clients-carousel h3 ,.portfolio-carousel h3 {
-	background:url("../images/bg_off.png") repeat;
+	background:url("/images/bg_off.png") repeat;
 	border-radius:5px 5px 0 0;
 	padding:10px 20px;
 	margin-bottom:13px;
@@ -1167,7 +1167,7 @@ figure:hover {
 .blog-sidebar{}
 .blog-sidebar ul{
 	margin:12px 0 12px 30px;
-	list-style-image: url("../images/arrow.png");
+	list-style-image: url("/images/arrow.png");
 	}	
 .blog-sidebar ul li{
 	margin:3px -1px 0 0;
@@ -1248,7 +1248,7 @@ figure:hover {
 	}
 	
 .post-nav .ibox:before {
-	background:url(../images/bg_off2.png) repeat ;
+	background:url(/images/bg_off2.png) repeat ;
 	display:inline-block;
 	vertical-align:-3px;
 	width:30px;
@@ -1261,7 +1261,7 @@ figure:hover {
 			box-shadow: 0 0 4px rgba(0, 0, 0, 0.15) inset;
 	}
 .post-nav .ibox:hover:before{
-	background:url(../images/bg_off.png) repeat ;
+	background:url(/images/bg_off.png) repeat ;
 	-webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.25) inset;
        -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.25) inset;
 			box-shadow: 0 0 4px rgba(0, 0, 0, 0.25) inset;
@@ -1290,7 +1290,7 @@ figure:hover {
 	opacity:.6;
 	font-weight:700;
 	padding-left:13px;
-	background:url(../images/arrow.png) left center no-repeat;
+	background:url(/images/arrow.png) left center no-repeat;
 	}
 #related-posts ul li a:hover{opacity:1}
 #related-posts ul li a span{
@@ -1325,7 +1325,7 @@ figure:hover {
 	width:20px;
 	height:20px;
 	display:inline-block;
-	background:url(../images/social.png) no-repeat ;
+	background:url(/images/social.png) no-repeat ;
 	opacity: 0.35;
 	margin:0 4px;
 	
@@ -1438,7 +1438,7 @@ figure:hover {
 	}
 
 .comment-author {
-	background:url(../images/bg_off2.png) repeat;
+	background:url(/images/bg_off2.png) repeat;
     float: left;
     padding:10px;
     width: 100%;
@@ -1602,7 +1602,7 @@ figure:hover {
 			box-shadow: 0 0 7px rgba(0,0,0,0.1);
 	}
 .author_info h4{
-	background: url("../images/bg_off2.png") repeat;
+	background: url("/images/bg_off2.png") repeat;
     border-radius: 5px 5px 5px 5px;
     color: #666666;
     font-size: 14px;
@@ -1871,10 +1871,10 @@ figure:hover {
 	}
 .widget .tab a{
 	padding: 6px 10px 6px 11px;
-	background:url(../images/bg_off2.png);
+	background:url(/images/bg_off2.png);
 	}
 .widget .tab a:hover{
-	background:url(../images/bg_off.png);
+	background:url(/images/bg_off.png);
 	}
 .widget .tab a.selected{
 	padding: 6px 10px 6px 11px;
@@ -1979,7 +1979,7 @@ figure:hover {
 	border-bottom:solid 1px #CCC;
 	padding:6px 12px;
 	font-size:14px;
-	background:url("../images/bg_off.png") repeat;
+	background:url("/images/bg_off.png") repeat;
 	}
 		
 .widget .tabswrap .panel ul li:last-child, .recent ul li:last-child{
@@ -2048,7 +2048,7 @@ a.mini-thumb img{
 	}
 
 #searchform input {
-	background: url("../images/bg_off2.png") repeat scroll 0 0 transparent;
+	background: url("/images/bg_off2.png") repeat scroll 0 0 transparent;
     border: 1px solid #CCCCCC;
     float: left;
 	height:31px;
@@ -2057,7 +2057,7 @@ a.mini-thumb img{
 	border-radius:5px;
 	}
 #searchform input:hover,#searchform input:focus {
-	background: url("../images/bg_off.png") repeat scroll 0 0 transparent;
+	background: url("/images/bg_off.png") repeat scroll 0 0 transparent;
     border: 1px solid #aaa;
 	}	
 #searchform label{
@@ -2119,7 +2119,7 @@ footer #searchform #searchsubmit {
 
 /* Dropdown in Widget */
 .widget select {
-	background: url(../images/bg_off2.png) repeat scroll 0 0 transparent;
+	background: url(/images/bg_off2.png) repeat scroll 0 0 transparent;
     border: 1px solid #CCC;
     color: #666;
     margin: 15px 0;
@@ -2375,7 +2375,7 @@ ul.filter li.current a{
 	}
 
 .overlay span{
-	background: url(../images/overlay.png) no-repeat scroll 0 0 #000;
+	background: url(/images/overlay.png) no-repeat scroll 0 0 #000;
     display: block;
     height: 40px;
     position: absolute;
@@ -2422,7 +2422,7 @@ ul.filter li.current a{
 	}
 	
 .project-nav .nav-icon {
-	background:url("../images/bg_off.png") repeat scroll 0 0 transparent;
+	background:url("/images/bg_off.png") repeat scroll 0 0 transparent;
 	display: block;
 	float: left;
 	margin:0 10px 9px 0;
@@ -2442,7 +2442,7 @@ ul.filter li.current a{
 			box-shadow: 0 0 3px rgba(0, 0, 0, 0.2) inset;
 }
 .project-nav .nav-icon a:hover{
-	background:url("../images/bg_on.png") repeat scroll 0 0 transparent;
+	background:url("/images/bg_on.png") repeat scroll 0 0 transparent;
 	-webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5) inset;
        -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5) inset;
 			box-shadow: 0 0 5px rgba(0, 0, 0, 0.5) inset;
@@ -2459,9 +2459,9 @@ ul.filter li.current a{
 
 /* FOOTER ********************************************************/
 footer.footer {
-	background:url(../images/footer_top.png) repeat-x top center,
-			   url(../images/footer_bg.png) repeat,
-			   url(../images/footer_bottom.png) repeat-x bottom center;
+	background:url(/images/footer_top.png) repeat-x top center,
+			   url(/images/footer_bg.png) repeat,
+			   url(/images/footer_bottom.png) repeat-x bottom center;
 	padding: 20px 0;
 	}
 
@@ -2491,7 +2491,7 @@ footer .gototop {
 	}
 footer .gototop a{
 	
-	background: url(../images/bg_off.png) repeat;
+	background: url(/images/bg_off.png) repeat;
     border-radius: 5px 5px 5px 5px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3) inset;
     display: block;
@@ -2517,7 +2517,7 @@ footer h3.logo a{
 	display:block;
 	width:112px;
 	height:19px;
-	background:url(../images/logo_bottom.png) no-repeat;
+	background:url(/images/logo_bottom.png) no-repeat;
 
 	font:0/0 a;
 	text-shadow:none;
@@ -2532,7 +2532,7 @@ footer h4.title{
 	padding: 7px;
 	border:none;
 	text-shadow:1px 1px 1px rgba(0,0,0,.6);
-	background:url(../images/footer_separator.png) repeat-x bottom center;
+	background:url(/images/footer_separator.png) repeat-x bottom center;
 	
 	}
 
@@ -2575,7 +2575,7 @@ footer ul li a{
 	
 	opacity:.65;
 	padding-left:13px;
-	background:url(../images/list-style.png) left center no-repeat;
+	background:url(/images/list-style.png) left center no-repeat;
 	}
 
 footer ul li a:hover{
@@ -2693,7 +2693,7 @@ footer .textwidget a:hover{opacity:1}
 	margin:0 10px 0 25px;
 	font-size:13px !important;
 	text-align:left !important; 
-	background:url(../images/contact_icons.png) no-repeat;
+	background:url(/images/contact_icons.png) no-repeat;
 	}
 .address .icon_tel{
 	background-position: 0 -75px;
@@ -2748,7 +2748,7 @@ footer .address .icon_pin{
 	width:20px;
 	height:20px;
 	display:inline-block;
-	background:url(../images/social.png) no-repeat ;
+	background:url(/images/social.png) no-repeat ;
 	opacity: 0.35;
 	margin:5px 2px;
 	}
@@ -2817,7 +2817,7 @@ footer .address .icon_pin{
 
 
 .wpcf7 input,.wpcf7 textarea,.wpcf7 select{
-	background: url("../images/bg_off2.png") repeat scroll 0 0 transparent;
+	background: url("/images/bg_off2.png") repeat scroll 0 0 transparent;
     border: 1px solid #CCC;
     float: left;
     padding: 6px 7px;
@@ -2831,7 +2831,7 @@ footer .address .icon_pin{
 	}
 
 .wpcf7 input:focus,.wpcf7 textarea:focus, .wpcf7 select:focus{
-	background: url("../images/bg_off.png") repeat scroll 0 0 transparent;
+	background: url("/images/bg_off.png") repeat scroll 0 0 transparent;
     border: 1px solid #AAA;
 	
 	-webkit-box-shadow: 0 0 6px rgba(0, 0, 0, 0.20) inset;
@@ -2858,7 +2858,7 @@ div.wpcf7-response-output {
     margin: 5px 0 0 !important;
     padding: 6px 12px !important;
     width: 95%;
-	background:url(../images/t10.png) repeat scroll 0 0 ;
+	background:url("/images/t10.png") repeat scroll 0 0 ;
 	border-radius:5px;
 	} 
 

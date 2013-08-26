@@ -9,26 +9,36 @@
     
 	
     <h3 class="title">
-    	Artists picture gallery
+    	Instructors & performers
     </h3>
     
     
     
     <!-- Gallery -->
     <div id="gallery-1" class="gallery gallery-columns-4">
-                  <% for artist in Artist.all %>  
+                  <% for artist in Artist.not_dj %>  
                     <dl class="gallery-item">
                         <dt class="gallery-icon">
                             <a data-rel="prettyPhoto[gallery]" class="prettyPhoto" href="<%= artist.picture %>" title="<%= artist.name %>"><img width="150" height="150" src="<%= artist.picture %>" class="attachment-thumbnail" alt="<%= artist.name %>" /></a>
-                        </dt><dd></dd>
+                        </dt><dd><%= artist.name %></dd>												
                     </dl>
                    <% end %>
                     
-                    
-                    
                 </div>
-                 
-    
+<div class="gap"></div>
+<h3 class="title">
+	Dj's
+</h3>                 
+<div id="gallery-1" class="gallery gallery-columns-4">
+              <% for artist in Artist.only_dj %>  
+                <dl class="gallery-item">
+                    <dt class="gallery-icon">
+                        <a data-rel="prettyPhoto[gallery]" class="prettyPhoto" href="<%= artist.picture %>" title="<%= artist.name %>"><img width="150" height="150" src="<%= artist.picture %>" class="attachment-thumbnail" alt="<%= artist.name %>" /></a>
+                    </dt><dd><%= artist.name %></dd>												
+                </dl>
+               <% end %>
+                
+            </div>    
 
     <!-- ======================================== --> 
 <!-- End Content ============================ -->
