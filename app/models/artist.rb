@@ -14,5 +14,5 @@ class Artist
   
   default_scope order_by(:rank.asc)
   scope :only_dj, where(:dj => true)
-  scope :not_dj, where(:dj => false)
+  scope :not_dj, where(:dj => nil)
 end
