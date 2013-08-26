@@ -12,5 +12,5 @@ class Artist
   
   slug :name, history: true
   
-  default_scope order_by(:rank.desc)
+  default_scope order_by(:rank.asc)
 end
