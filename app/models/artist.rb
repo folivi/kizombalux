@@ -6,7 +6,7 @@ class Artist
   field :name, type: String
   field :lastname, type: String
   field :country, type: String
-  field :rank, type: String
+  field :rank, type: Integer
   
   mount_uploader :picture, PictureUploader
   
