@@ -1,2 +1,22 @@
-<h1>Festival#contact</h1>
-<p>Find me in app/views/festival/contact.html.erb</p>
+<%= content_for :title do %>
+	<h2>Contact us</h2>
+<% end %>
+<div class="one-third column alpha">
+	<span class="icon-phone-squared sz-xs" ></span><strong>Tel</strong>:+352 691 201 974  <br/>
+	<span class="icon-mail sz-xs" ></span><strong>Email:</strong> kizombaluxembourg<span>@</span>gmail.com <br/>	
+	<span class="icon-facebook sz-xs" ></span><strong><a target ='_blank' href="https://www.facebook.com/kizomba.directionlux?fref=ts">Facebook</strong></a> <br/>	
+</div>
+<div class="two-thirds column alpha">
+    
+    <h3 class="title">Contact Form</h3>
+    
+    <div class="wpcf7">
+			<%= form_for @contact do |f| %>
+			<p> <%= f.label "Your name" %> <br /> <span><%= f.text_field :name %> </span></p>
+			<p> <%= f.label "Your email" %> <br /> <span><%= f.text_field :email %> </span></p>
+			<p> <%= f.label "Your message/question" %> <br /> <span><%= f.text_area :message %> </span></p>
+			<p><%= f.submit "Send" %></p>
+			<% end %>
+    </div>
+    
+</div>

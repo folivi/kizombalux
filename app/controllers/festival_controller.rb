@@ -14,5 +14,6 @@ class FestivalController < ApplicationController
   end
 
   def contact
+    @contact = Contact.new
   end
 end
