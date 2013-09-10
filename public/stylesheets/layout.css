@@ -2939,3 +2939,8 @@ div.wpcf7 .wpcf7-file{margin: 7px 0;}
 
 
 
+.language_span{
+	border: 1px solid #ca1;
+	border-radius: 5px;
+	background-color: #ccc;
+}

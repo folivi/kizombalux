@@ -4,3 +4,6 @@
 fr:
   hello: "Hello world"
   welcome: "Bienvenue!"
+  instructor_performers: "Profs"  
+  videos_of_performers: "Vidéos"
+  home: "Accueil"  
