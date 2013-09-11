@@ -1,4 +1,7 @@
-<div class="twelve columns texts-wrap">
+<div class="adbox style5 center ">
+	<div class="inside clearfix">
+<% if params[:locale] == "en" %>
+
 	<p>
 		Luxembourg is border to the countries Belgium (B), Germany (D) and France (F).
 	</p>
@@ -27,7 +30,7 @@
 	</p>
 	<p>
 
-		We strongly advice you to use the <a target ="_blank" href="http://www.flibco.com"> Flibco </a>  website for easily finding 
+		We strongly advice you to use the <b><a class="forced_link" target ="_blank" href="http://www.flibco.com"> www.flibco.com </a></b>  website for easily finding 
 	</p>
 	<p>
 
@@ -41,4 +44,36 @@
 		that will take you to the railway station of Luxembourg.
 	</p>	
 
+<% else %>
+	<% if params[:locale] == "fr" %>
+	
+	<p>Luxembourg est un pays frontalier avec la Belgique (B), l’Allemagne (D) et la France (F).
+		</p><p>
+			En plus de l'aéroport international du Luxembourg, vous avez d'autres aéroports avec des possibilités de billets moins chers que sont :	
+		</p><p>
+	(F) Metz/Nancy – (40 min du Luxembourg)
+		</p><p>
+	(D) Francfort Hahn – (1h30 du Luxembourg)
+		</p><p>
+	(D) Cologne – (2h30 du Luxembourg)
+		</p><p>
+	(B) Charleroi – (2h00 du Luxembourg)
+		</p><p>
+	(B) Bruxelles – (2h30 du Luxembourg)
+		</p><p>
+	On vous conseil vivement de utiliser le site internet « http://www.flibco.com » pour 
+		</p><p>
+	relier facilement les destination de Francfort, Cologne et Charleroi vers le Luxembourg 
+		</p><p>
+	en Bus.
+		</p><p>
+	Pour les aéroport des villes telles que Bruxelles, Metz/Nancy, on vous propose de 
+		</p><p>
+	prendre tout simplement le train qui vous amènera jusqu'à la gare ferroviaire du 
+
+	Luxembourg
+	<% end %>
+<% end %>
+
+</div>
 </div>

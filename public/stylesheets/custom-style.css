@@ -406,7 +406,12 @@ body{
 		
 		
 		
-		
+		.forced_link{
+			color: blue !important;			
+		}
+		.forced_link:hover{
+			font-size: 14px;
+		}
 		
 		
 		
