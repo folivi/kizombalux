@@ -13,7 +13,7 @@ en:
   friday: "Friday: Opening party & Shows"
   saturday: "Saturday: Workshops all day then shows & party at night time"
   sunday: "Sunday: Workshops all day then shows & party at night time"
-  currentprice: "Current price for the FULL PASS"
+  currentprice: "The price increases every month. To buy the pass and find prices, go to the link below"
   pricingtable: "See the entire pricing table"
   airports: Airports
   lineup: "Artistes & Profs"
@@ -31,4 +31,6 @@ en:
   march: "March"
   april: "April"
   may: "May"
-  buy_now: "Buy Now"
+  buy_now: "Buy by credit card"
+  hotel_details: "Hotel details"
+  ticketoption: "You can also pay by bank transfert to <p>ING LUXEMBOURG<br />IBAN: LU62 0141 1488 1570 0000<br />Swift code: CELLLULL<br /> Once your payment is done send us a proof, your name and email address</p>"

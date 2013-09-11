@@ -127,19 +127,21 @@
 	                    		</div>
 
 	                    		<div class="panel" id="panel32423" style="display: none;">
-	                    			<p><h5><%= t 'currentprice' %> <%= Ticket.first.september_price %>€ </h5></p>
-														<p> <strong><%= link_to t('pricingtable'), pricing_path %> </strong></p>
+	                    			<p><h5><%= t 'currentprice' %> </h5></p>
+														<div class="button">
+															<%= link_to t('pricingtable'), pricing_path %>															
+														</div>
 
 	                    		</div>
 	                    		<div class="panel" id="panel32424" style="display: none;">
-	                    			<h4>Venue & Accomodation</h4>
+	                    			<h4><%= t('venue') %></h4>
 														<p><strong>Novotel Kirchberg 4*</strong></p>
 														 <p>
 																6 rue Fort Niedergrünewald <br />
 												    		Quartier Européen Nord<br />
 												    		Plateau de Kirchberg<br />
 												    		L-2226 LUXEMBOURG<br />
-																<strng><%= link_to "Hotel details", hotel_path %></strong>
+																<div class="button"><%= link_to t('hotel_details'), hotel_path %></div>
 												    	</p>
 	                    		</div>
 	                        </div>
