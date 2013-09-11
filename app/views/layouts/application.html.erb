@@ -128,8 +128,8 @@
                  <!-- Search Button -->
 
 					<div class="top_search">
-						<span class="language_span"><%= link_to "English", locale: "en" %></span>
-						<span class="language_span"><%= link_to "Français", locale: "fr" %></span>
+						<span class="language_spanz"><%= link_to(image_tag("/images/fr.jpg"), locale: "fr") %></span>
+						<span class="language_spans"><%= link_to(image_tag("/images/uk.jpg"), locale: "en") %></span>
 					</div>
                 
                 <!-- end Search Button -->
@@ -140,12 +140,12 @@
                 <!-- Navigation Menu -->
                 <nav class="main">
                     <ul id="menu-main-menu" class="sf-menu">
-                        <li><%= link_to "Home", root_url %></li>
+                        <li><%= link_to t('home'), root_url %></li>
                         <li><%= link_to t('instructor_performers'), lineup_path %></li>
                         <li><%= link_to "Tickets", pricing_path %></li>
                         <li><%= link_to t('venue'), hotel_path %></li>
-                        <li><%= link_to "Contact", contact_us_path %></li>
                         <li><%= link_to t('airports'), access_path %></li>                        
+                        <li><%= link_to "Contact", contact_us_path %></li>
                     </ul>
                 </nav> 
                 <!-- End Navigation Menu -->
