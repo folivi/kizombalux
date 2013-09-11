@@ -312,7 +312,7 @@ nav.main ul li{
 .sf-menu ul li {
 	width:100%;
 	border-bottom: 1px solid #CCCCCC;
-    border-top: 1px solid #FFFFFF;
+    border-top: 1px solid #fdfcf3;
 }
 .sf-menu ul li:first-child {
 	background:#F3F3F3;
@@ -2467,7 +2467,7 @@ footer.footer {
 	}
 
 footer.bottom {
-	background:#FFF;
+	background:#fdfcf3;
 	}	
 footer.bottom .container {
 	padding:10px 0 20px;

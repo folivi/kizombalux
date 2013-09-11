@@ -130,7 +130,7 @@ body{
 	
 	/* Header Height is 90px in default */
 	.band.main {
-		background:#FFFFFF;
+		background:#fdfcf3;
 		height:90px; 
 		}
 	.band.title{margin-top:90px;}

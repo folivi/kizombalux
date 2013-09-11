@@ -145,7 +145,7 @@
 }
 .liteAccordion.light .slide:first-child h2 span {margin-top:5px}
 
-.liteAccordion.light .slide > h2 b { background: #ffffff; color: #909090; text-shadow: -1px 1px 0 white }
+.liteAccordion.light .slide > h2 b { background: #fdfcf3; color: #909090; text-shadow: -1px 1px 0 white }
 .liteAccordion.light .slide > h2.selected span, .liteAccordion.light .slide h2.selected span:hover, .liteAccordion.light .slide > h2.selected b { background: #ffffff }
 .liteAccordion.light .slide > div { background: #a0a0a0; margin-left: 5px }
 .liteAccordion.light .ap-caption {right:60px;}
