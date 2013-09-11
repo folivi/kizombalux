@@ -47,13 +47,15 @@ body{
 	
 			
 	/* Boxed layout background color */			
-	.wrap.boxed, .wrap.boxed-margin{background-color: #ab1313;}';
+	.wrap.boxed, .wrap.boxed-margin{background-color: #ab1313;};
 	
 	
 	/*Wide layout background color 			
-	.wrap.wide{background-color:;}
+	.wrap.wide{background-color: ;}
 	*/			
-
+	.content{
+		background-color: #fffddc !important;
+	}
 	.wrap.wide,.search_text{
 		background-color:#ff2e2e;
 		}
