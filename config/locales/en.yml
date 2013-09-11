@@ -34,3 +34,7 @@ en:
   buy_now: "Buy by credit card"
   hotel_details: "Hotel details"
   ticketoption: "You can also pay by bank transfert to <p>ING LUXEMBOURG<br />IBAN: LU62 0141 1488 1570 0000<br />Swift code: CELLLULL<br /> Once your payment is done send us a proof, your name and email address to  kizombaluxembourg@gmail.com </p>"
+  contactname: "Your Fullname"
+  contactemail: "Your email "
+  contactquestion: "Your message/question "
+  contactsend: "Send"

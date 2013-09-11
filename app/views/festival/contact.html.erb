@@ -12,10 +12,10 @@
     
     <div class="wpcf7">
 			<%= form_for @contact do |f| %>
-			<p> <%= f.label "Your name" %> <br /> <span><%= f.text_field :name %> </span></p>
-			<p> <%= f.label "Your email" %> <br /> <span><%= f.text_field :email %> </span></p>
-			<p> <%= f.label "Your message/question" %> <br /> <span><%= f.text_area :message %> </span></p>
-			<p><%= f.submit "Send" %></p>
+			<p> <%= t('contactname') %> <br /> <span><%= f.text_field :name %> </span></p>
+			<p> <%= f.label t('contactemail') %> <br /> <span><%= f.text_field :email %> </span></p>
+			<p> <%= f.label t('contactquestion') %> <br /> <span><%= f.text_area :message %> </span></p>
+			<p><%= f.submit t('contactsend') %></p>
 			<% end %>
     </div>
     
