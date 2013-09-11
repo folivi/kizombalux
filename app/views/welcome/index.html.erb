@@ -100,35 +100,35 @@
 	<div class="tabswrap vtabs clearfix">
 	                            <ul class="tabs">
 	                            	<li class="tab"><a href="#panel32421" class="selected"><span class="ibtn icon-comment sz-s"></span><%= t 'welcome' %></a></li>
-	                            	<li class="tab"><a href="#panel32422"><span class="ibtn icon-calendar-1 sz-s"></span>Program</a></li>
+	                            	<li class="tab"><a href="#panel32422"><span class="ibtn icon-calendar-1 sz-s"></span><%= t 'program' %></a></li>
 	                            	<li class="tab"><a href="#panel32423"><span class="ibtn icon-ticket sz-s"></span>Tickets</a></li>
-	                            	<li class="tab"><a href="#panel32424"><span class="ibtn icon-thumbs-up sz-s"></span>Venue & accomodation</a></li>
+	                            	<li class="tab"><a href="#panel32424"><span class="ibtn icon-thumbs-up sz-s"></span><%= t 'venue' %></a></li>
 	                            </ul>
 
 	                            <div class="panel" id="panel32421" style="display: block;">
 	                    			
-														<p><h4>KZL (Kizomba Luxembourg) </h4> presents: The First Kizomba Congress in Luxembourg, from May 2nd to May 4th 2014.</p>
+														<p><h4>KZL (Kizomba Luxembourg) </h4> <%= t'line1' %></p>
 
-														<p>We will host you in a luxury hotel in the heart of Luxembourg. A key location from where you can admire the splendor of our beautiful city</p>
+														<p><%= t'line2' %></p></p>
 
-														<p>Don't miss this chance to improve yourself in Kizomba, Semba and other African dances, and learn  from the best international performers' workshops and shows</p>
+														<p><%= t'line3' %></p></p>
 
-														<p><b>Prepare yourselves for a great weekend full of emotions!</b></p>
+														<p><b><%= t'line4' %></p></b></p>
 	                    		</div>
 
 	                    		<div class="panel" id="panel32422" style="display: none;">
 															<p>
 																<ul>
-																	<li><strong>Friday: Opening party & Shows</strong></li>
-																	<li><strong>Saturday: Workshops all day then shows & party at night time</strong></li>
-																	<li><strong>Sunday: Workshops all day then shows & party at night time</strong></li>
+																	<li><strong><%= t "friday" %></strong></li>
+																	<li><strong><%= t "saturday" %></strong></li>
+																	<li><strong><%= t "sunday" %></strong></li>
 																</ul>
 															</p>
 	                    		</div>
 
 	                    		<div class="panel" id="panel32423" style="display: none;">
-	                    			<p><h5>Current price for the FULL PASS : <%= Ticket.first.september_price %>€ </h5></p>
-														<p> <%= link_to "See the entire pricing table", pricing_path %></p>
+	                    			<p><h5><%= t 'currentprice' %> <%= Ticket.first.september_price %>€ </h5></p>
+														<p> <strong><%= link_to t('pricingtable'), pricing_path %> </strong></p>
 
 	                    		</div>
 	                    		<div class="panel" id="panel32424" style="display: none;">
@@ -149,7 +149,7 @@
 <div class="clearfix">
                             <div id="portfolio-carousel" class="portfolio-carousel">
                                 
-                                <h3 class="title">Instructors & Performers</h3>
+                                <h3 class="title"><%= t'instructor_performers' %></h3>
                                 
                                 <div class="nxt" id="nxt_portfolio_carousel"> &#xe850;</div>
                                 <div class="prv" id="prv_portfolio_carousel"> &#xe84f;</div>
