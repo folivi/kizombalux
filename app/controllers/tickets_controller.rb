@@ -1,6 +1,7 @@
 class TicketsController < ApplicationController
   # GET /tickets
   # GET /tickets.json
+  before_filter :authenticate_user!
   def index
     @tickets = Ticket.all
 

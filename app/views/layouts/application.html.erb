@@ -207,7 +207,13 @@
                 
                 <div class="container">
             
-     
+     						<% if flash[:notice] %>
+									<div class="message success">										
+										<span class="bullets b-info"></span>
+											<%= flash[:notice] %>
+										<span class="close c-info" href="#"></span>										
+									</div>
+								<% end %>
                         <!-- ========================================== --> 
                         <!-- Start Content ============================ -->
                         <!-- ========================================== -->   

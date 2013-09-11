@@ -26,6 +26,7 @@ gem 'jquery-rails'
 gem 'jquery-ui-rails'
 gem 'simple_form'
 gem 'devise'
+gem 'cancan'
 gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
 gem "puma"
 gem 'rmagick','2.12.2'

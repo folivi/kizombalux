@@ -1,3 +1,4 @@
+<% if current_user.admin? %> 
 <h1>Listing artists</h1>
 
 <table>
@@ -25,3 +26,11 @@
 <br />
 
 <%= link_to 'New Artist', new_artist_path %>
+<% else %>
+<div class="message error">										
+	<span class="bullets b-info"></span>
+		You cannot access this page
+	<span class="close c-info" href="#"></span>										
+</div>
+
+<% end %>

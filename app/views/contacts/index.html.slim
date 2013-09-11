@@ -1,25 +1,29 @@
-h1 Listing contacts
-
-table
-  tr
-    th Name
-    th Email
-    th Message
-    th Ip adress
-    th
-    th
-    th
-
-  - @contacts.each do |contact|
-    tr
-      td = contact.name
-      td = contact.email
-      td = contact.message
-      td = contact.ip_adress
-      td = link_to 'Show', contact
-      td = link_to 'Edit', edit_contact_path(contact)
-      td = link_to 'Destroy', contact, :confirm => 'Are you sure?', :method => :delete
-
-br
-
-= link_to 'New Contact', new_contact_path
+-if current_user.admin?
+	
+	h1 Listing contacts
+	
+	table
+	  tr
+	    th Name
+	    th Email
+	    th Message
+	    th Ip adress
+	    th
+	    th
+	    th
+	
+	  - @contacts.each do |contact|
+	    tr
+	      td = contact.name
+	      td = contact.email
+	      td = contact.message
+	      td = contact.ip_adress
+	      td = link_to 'Show', contact
+	      td = link_to 'Edit', edit_contact_path(contact)
+	      td = link_to 'Destroy', contact, :confirm => 'Are you sure?', :method => :delete
+	
+	br
+	
+	= link_to 'New Contact', new_contact_path
+-else
+	=render :partial => "no_access"
