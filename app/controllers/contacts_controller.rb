@@ -45,7 +45,7 @@ class ContactsController < ApplicationController
 
     respond_to do |format|
       if @contact.save
-        format.html { redirect_to root_url, notice: 'Your message was successfully sent.' }
+        format.html { redirect_to root_url, locale: params[:locale], notice: t('messagesent') }
         format.json { render json: root_url, status: :created, location: @contact }
       else
         format.html { render action: "new" }
