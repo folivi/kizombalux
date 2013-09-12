@@ -15,7 +15,7 @@ Kizombalux::Application.routes.draw do
 
   get "contact_us", to: "festival#contact", as: "contact_us"
   
-  get "welcome/index"
+  #get "welcome/index"
   resources :artists
 
   root to: 'welcome#index'
