@@ -2155,7 +2155,7 @@ ul.portfolio {
 	        transition: height 0.4s ease-out;
 	}
 .portfolio li {
-	
+	/*background:#000;*/
 	float: left;
 	margin-right: 20px;
 	margin-bottom: 20px;
