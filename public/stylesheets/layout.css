@@ -2155,7 +2155,7 @@ ul.portfolio {
 	        transition: height 0.4s ease-out;
 	}
 .portfolio li {
-	background:#FFF;
+	
 	float: left;
 	margin-right: 20px;
 	margin-bottom: 20px;
@@ -2206,14 +2206,14 @@ ul.portfolio {
 
 .portfolio-thumb {
 	width:100%;
-	-webkit-box-shadow: 0 0 7px rgba(0,0,0,0.2);
+	-webkit-box-shadow: 0 0 7px rgba(0,0,0,0.0);
        -moz-box-shadow: 0 0 7px rgba(0,0,0,0.2);
-			box-shadow: 0 0 7px rgba(0,0,0,0.2);
+			box-shadow: 0 0 7px rgba(0,0,0,0.0);
 	}
 
 .portfolio-thumb a{
 	border-radius:5px;
-	border: 1px solid #ccc;
+	border: 1px solid #000;
 	}
 	
 .portfolio-info{padding:10px}
