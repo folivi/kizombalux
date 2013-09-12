@@ -32,7 +32,7 @@ fr:
   may: "Mai"
   buy_now: "Acheter avec une carte de crédit"
   hotel_details: "En savoir plus sur l'hôtel"
-  ticketoption: "Vous pouvez aussi payer par virement bancaire au compte: <p><strong>ING LUXEMBOURG<br />IBAN: LU62 0141 1488 1570 0000<br />Swift code: CELLLULL<br /></strong> Une <font color='red'>preuve du virement</font> et le nom, mail du festivalier doit être envoyé à kizombaluxembourg@gmail.com</p>"
+  ticketoption: "<font color='red' size='3'>Vous pouvez aussi payer par virement bancaire au compte:</font> <p><strong>ING LUXEMBOURG<br />IBAN: LU62 0141 1488 1570 0000<br />Swift code: CELLLULL<br /></strong>  <font color='red' size='3'> Une preuve du virement et le nom, mail du festivalier doit être envoyé à kizombaluxembourg@gmail.com</font></p>"
   contactname: "Nom et prénom"
   contactemail: "Votre email "
   contactquestion: "Votre message ou question "
