@@ -1,7 +1,7 @@
 class ContactsController < ApplicationController
   # GET /contacts
   # GET /contacts.json
-  before_filter :authenticate_user!
+  before_filter :authenticate_user!, only: [:show, :edit]
   def index
     @contacts = Contact.all
 
@@ -46,7 +46,7 @@ class ContactsController < ApplicationController
     respond_to do |format|
       if @contact.save
         format.html { redirect_to root_url, notice: 'Your message was successfully sent.' }
-        format.json { render json: @contact, status: :created, location: @contact }
+        format.json { render json: root_url, status: :created, location: @contact }
       else
         format.html { render action: "new" }
         format.json { render json: @contact.errors, status: :unprocessable_entity }
