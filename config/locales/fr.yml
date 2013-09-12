@@ -7,7 +7,7 @@ fr:
   instructor_performers: "Profs & Artistes"  
   videos_of_performers: "Quelques vidéos des artistes"
   home: "Accueil"
-  takeplace: "Le congrès aura lieu au Novotel Kirchberg (Hotel 4*) <br /> Les prix négocies de vos chambres vous seront donnés bientôt."
+  takeplace: "Le congrès aura lieu au Novotel Kirchberg (Hotel 4*) <br /> Les prix négociés de vos chambres vous seront donnés bientôt."
   program: "Programme"
   venue: "Lieu & hotel"
   friday: "Vendredi: Soirée d'ouverture et shows"
@@ -38,3 +38,4 @@ fr:
   contactquestion: "Votre message ou question "
   contactsend: "Envoyer"
   messagesent: "Votre message a été envoyé."
+  contactform: "Formulaire de contact"
