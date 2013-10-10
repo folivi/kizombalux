@@ -7,7 +7,7 @@ en:
   instructor_performers: "Instructors & performers"
   videos_of_performers: "Videos from our Instructors "
   home: "Home"
-  takeplace: "The entire congess wil take place the Novotel Kirchberg 4* hotel. <br /> The discounted room rates will be published soon."
+  takeplace: "The entire congess wil take place the Novotel Kirchberg 4* hotel. <br /> "
   program: "Program"
   venue: "Venue & hotel"
   friday: "Friday: Opening party & Shows"
@@ -15,7 +15,7 @@ en:
   sunday: "Sunday: Workshops all day then shows & party at night time"
   currentprice: "The price increases every month. To buy the pass and find prices, go to the link below"
   pricingtable: "See the entire pricing table"
-  airports: Airports
+  airports: Airport&Travel
   lineup: "Artistes & Profs"
   kzl: "KZL (Kizomba Luxembourg) presents:"
   line1: "The First Kizomba Congress in Luxembourg, from May 2nd to May 4th 2014."
@@ -41,3 +41,8 @@ en:
   messagesent: "Your message was successfully sent."
   contactform: "Contact Form"
   buy_your_ticket_now: "Book your ticket now!"
+  full_pass_content: "The Full Pass allows you access to all entertainments during the whole weekend : the 3 parties, the workshops during the 2 days (Saturday and Sunday) and all the shows."
+  day_pass_content: "The  'Day Pass' allows you access to all entertainments during one day : 1 party, the workshops during 1 day (Saturday or Sunday) and the shows."
+  party_pass_content: "The Party Pass allows you access to all party during the whole weekend : the 3 parties ( Friday, Saturday and Sunday)"
+  room_rates: "ROOM RATES: <br />  Triple Room per night= 115€ <br /> Double Room per night= 85€<br /> Single Room per Night= 75€ <br />"
+  partner_trip: "Our partner Bailena can help you to organise your trip. You can buy a whole individual package with journey, accomodation and pass or only hotel, flight/train, pass... whatever you need. "

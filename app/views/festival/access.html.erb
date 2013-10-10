@@ -42,7 +42,11 @@
 	</p>
 	<p>
 		that will take you to the railway station of Luxembourg.
+	</p>
+	<p>
+		<%= t("partner_trip")%>
 	</p>	
+		<%= image_tag "/images/bailena_banner_engl3.jpeg" %>
 
 <% else %>
 	<% if params[:locale] == "fr" %>
@@ -72,6 +76,9 @@
 	prendre tout simplement le train qui vous amènera jusqu'à la gare ferroviaire du 
 
 	Luxembourg
+	<div class="clear"></div>
+	<p><%= t("partner_trip")%></p>
+	<%= image_tag "/images/bailena_banner_engl3.jpeg" %>
 	<% end %>
 <% end %>
 
