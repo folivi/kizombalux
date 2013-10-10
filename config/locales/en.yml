@@ -15,7 +15,7 @@ en:
   sunday: "Sunday: Workshops all day then shows & party at night time"
   currentprice: "The price increases every month. To buy the pass and find prices, go to the link below"
   pricingtable: "See the entire pricing table"
-  airports: Airport&Travel
+  airports: "Airport & Travel"
   lineup: "Artistes & Profs"
   kzl: "KZL (Kizomba Luxembourg) presents:"
   line1: "The First Kizomba Congress in Luxembourg, from May 2nd to May 4th 2014."
@@ -33,7 +33,7 @@ en:
   may: "May"
   buy_now: "Buy by credit card"
   hotel_details: "Hotel details"
-  ticketoption: "<font color='red' size='3'>You can also pay by bank transfert to: </font> <p><strong>ING LUXEMBOURG<br />IBAN: LU62 0141 1488 1570 0000<br />Swift code: CELLLULL<br /> </strong> <font color='red' size='3'>Once your payment is done send us a proof of the transfert, your name and email address to  kizombaluxembourg@gmail.com </font></p>"
+  ticketoption: "<font color='red' size='3'>You can also pay by bank transfert to: </font> <p><strong>ING LUXEMBOURG<br />IBAN: LU62 0141 1488 1570 0000<br />Swift code: CELLLULL<br /> </strong> <font color='red' size='3'>Once your payment is done send us a proof of the transfert, your name and email address, your arrival date, departure and your room mates fullname to  kizombaluxembourg@gmail.com </font></p>"
   contactname: "Your Fullname"
   contactemail: "Your email "
   contactquestion: "Your message/question "
