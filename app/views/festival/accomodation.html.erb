@@ -1,18 +1,8 @@
 <%= content_for :title do %>
 	<h2><%= t('venue') %> </h2>
 <% end %>
-<div class="clearfix">
-	<div class="eleven columns alpha">		
-		<div class="adbox style1 left ">
-			<div class="inside clearfix">
-		<p><h5><%= raw t("takeplace") %> </h5></p>
-		<p><h5><%= raw t("room_rates")%></h5></p>
-		</div>
-		</div>
-	</div>
-</div>
-
 <br />
+<p><strong><%= raw t("takeplace") %> </strong></p>
 <div class="clearfix">
 	<div class="one-third column alpha">
 		<%= image_tag "/photos/hotel/novotel_1.jpeg" %>
@@ -24,6 +14,18 @@
 		<%= image_tag "/images/chambre.jpg" %>
 	</div>
 </div>
+
+<div class="adbox style1 center">
+	<div class="inside clearfix">
+		<p><strong><%= raw t("room_rates")%></strong></p>
+		<div class="button">
+			<%= link_to raw("<span class='icon-ticket sz-xs' ></span>"+ t('buy_now')), "http://www.weezevent.com/kizombaluxembourg", target: "_blank" %>
+		</div>
+		<br />
+	<%= raw t('ticketoption') %>
+	</div>
+</div>
+<br />
 <div class="clearfix">
 	<div class="one-third column alpha">
 		<h3 class="title"><span class="icon-globe sz-m"></span>Contact:</h3>
