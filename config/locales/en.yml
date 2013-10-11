@@ -34,6 +34,7 @@ en:
   buy_now: "Buy by credit card"
   hotel_details: "Hotel details"
   ticketoption: "<font color='red' size='3'>You can also pay by bank transfert to: </font> <p><strong>ING LUXEMBOURG<br />IBAN: LU62 0141 1488 1570 0000<br />Swift code: CELLLULL<br /> </strong> <font color='red' size='3'>Once your payment is done send us a proof of the transfert, your name and email address, your arrival date, departure and your room mates fullname to  kizombaluxembourg@gmail.com </font></p>"
+  hoteloption: "<font color='red' size='3'>You can also pay by bank transfert to: </font> <p><strong>ING LUXEMBOURG<br />IBAN: LU62 0141 1488 1570 0000<br />Swift code: CELLLULL<br /> </strong> <font color='red' size='3'>Once your payment is done send us a proof of the transfert, your name and email address, your arrival date, departure and your room mates fullname to  kizombaluxembourg@gmail.com </font></p>"
   contactname: "Your Fullname"
   contactemail: "Your email "
   contactquestion: "Your message/question "
